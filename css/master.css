@@ -42,6 +42,18 @@
   font-size: 13px;
   position: relative;
 }
+.link-menu2 {
+  transition: 0.3s ease;
+  color: #ffffff;
+  text-decoration: none;
+  border-top: 4px solid #B61200;
+  border-bottom: 4px solid #B61200;
+}
+.link-menu2:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
+}
 .ar-img{
   width: 100%;
 }
