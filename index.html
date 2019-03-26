@@ -1,0 +1,2152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="owl-carousel/assets/owl.theme.default.min.css" />
+  <link href="css/style.min.css" rel="stylesheet">
+  <link href="css/master.css" rel="stylesheet">
+  <style type="text/css">
+    html,
+    body,
+    header,
+    .carousel {
+      height: 60vh;
+    }
+
+    @media (max-width: 740px) {
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light cinza scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand waves-effect" href="#">
+        <strong> <img src="img/logo.png" alt="logo"> </strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <!-- Search form -->
+            <form class="form-inline ">
+              <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search" aria-label="Search">
+              <i class="fas fa-search" aria-hidden="true"></i>
+            </form>
+
+          </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect" target="_blank" style="color: #666666;">
+              <i class="fas fa-user"></i>
+              <span class="clearfix d-none d-sm-inline-block"> Entre ou cadastre-se </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect" style="color: #666666;">
+              <span class="badge red z-depth-1 mr-1"> 50 </span>
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- ./Navbar -->
+
+<!-- Submenu -->
+  <nav class="list-menu">
+    <div class="container-fluid">
+      <ul class="nav justify-content-center py-4">
+        <li class="nav-item">
+          <a class="nav-link link-menu2" href="#!">
+            <div class="ar-img">
+              <img src="img/icon-alimentos.png" alt="alimentos">
+            </div>
+            <div class="ar-name">
+              <span>Alimentos Especiais</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-menu2" href="#!">
+            <div class="ar-img">
+              <img src="img/icon-bazar.png" alt="bazar">
+            </div>
+            <div class="ar-name">
+              <span>Bazar</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-menu2" href="#!">
+            <div class="ar-img">
+              <img src="img/icon-bebidas.png" alt="bebidas">
+            </div>
+            <div class="ar-name">
+              <span>Bebidas</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-menu2" href="#!">
+            <div class="ar-img">
+              <img src="img/icon-carnes.png" alt="carnes">
+            </div>
+            <div class="ar-name">
+              <span>Carnes, Aves e Peixes</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-menu2" href="#!">
+            <div class="ar-img">
+              <img src="img/icon-congelados.png" alt="congelados">
+            </div>
+            <div class="ar-name">
+              <span>Congelados</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-menu2" href="#!">
+            <div class="ar-img">
+              <img src="img/icon-frios.png" alt="frios">
+            </div>
+            <div class="ar-name">
+              <span>Frios e Laticinios</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-menu2" href="#!">
+            <div class="ar-img">
+              <img src="img/icon-higiene.png" alt="higiene">
+            </div>
+            <div class="ar-name">
+              <span>Higiene e Beleza</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-menu2" href="#!">
+            <div class="ar-img">
+              <img src="img/icon-hortifrut.png" alt="hortifrut">
+            </div>
+            <div class="ar-name">
+              <span>Hortifrut</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-menu2" href="#!">
+            <div class="ar-img">
+              <img src="img/icon-limpeza.png" alt="limpeza">
+            </div>
+            <div class="ar-name">
+              <span>Limpeza</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-menu2" href="#!">
+            <div class="ar-img">
+              <img src="img/icon-matinais.png" alt="matinais">
+            </div>
+            <div class="ar-name">
+              <span>Matinais</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-menu2" href="#!">
+            <div class="ar-img">
+              <img src="img/icon-mercearia.png" alt="mercearia">
+            </div>
+            <div class="ar-name">
+              <span>Mercearia</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-menu2" href="#!">
+            <div class="ar-img">
+              <img src="img/icon-padaria.png" alt="padaria">
+            </div>
+            <div class="ar-name">
+              <span>Padaria</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-menu2" href="#!">
+            <div class="ar-img">
+              <img src="img/icon-petshot.png" alt="petshot">
+            </div>
+            <div class="ar-name">
+              <span>Pet Shop</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- ./Submenu-->
+  <!-- Full Page Intro -->
+  <div class="view" style="background-image: url('img/bg.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <!-- Mask & flexbox options-->
+    <div class="mask rgba-gradient align-items-center">
+              <!-- Content -->
+      <div class="container">
+                <!--Grid row-->
+        <div class="row">
+                  <!--Grid column-->
+          <div class="col-md-6 white-text text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
+                    <h1 class="h1-responsive font-weight-bold mt-sm-5 bg-title">Make purchases with our app </h1>
+                    <hr class="hr-light">
+                    <h6 class="mb-4 bg-more">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi fuga nesciunt
+                    dolorum nulla magnam veniam sapiente, fugiat! Commodi sequi non animi ea dolor molestiae
+                    iste.</h6>
+                  </div>
+                  <!--Grid column-->
+                  <!--Grid column-->
+                  <div class="col-md-6 col-xl-5 mt-xl-5 wow fadeInRight" data-wow-delay="0.3s">
+                    <img src="img/logo-500.png" alt="" class="img-fluid">
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+          </div>
+          <!-- Full Page Intro -->
+<br><br>
+  <!--Main layout-->
+  <main>
+    <div class="container">
+      <!--Section: Products v.3-->
+      <section class="mb-4">
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+          <div class="col-lg-12 col-md-12">
+            <div class="tp-card">
+              <i class="fas fa-star"></i> Produtos em Promoção
+            </div>
+          </div>
+          <div class="col-lg-12 col-md-12 owl-carousel owl-theme">
+          <div>
+            <div class="card">
+              <div class="ct-and-title">
+                <!--Category & Title-->
+                  <h5>Cerveja Din Faxe 10% 1000ml</h5>
+                  <span>Din Faxe</small>
+                </h5>
+              </div>
+              <!--Card image-->
+              <div class="view overlay">
+                <img src="produtos/cerv1.png" class="card-img-top"
+                  alt="">
+                <div class="dt-produtos">
+                  <h5>Por: R$ 25,69</h5>
+                  <!-- Material input -->
+                  <div class="def-number-input number-input">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                    <input class="quantity" min="0" name="quantity" value="1" type="number">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+                  </div>
+                  <span>Em até 2x no cartão de crédito</span>
+                </div>
+                <div class="dt-button-carrinho">
+                  <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+                </div>
+              </div>
+              <!--Card image-->
+            </div>
+            <!--Card-->
+          </div>
+          <div>
+            <div class="card">
+              <div class="ct-and-title">
+                <!--Category & Title-->
+                  <h5>Cerveja Din Faxe 10% 1000ml</h5>
+                  <span>Din Faxe</small>
+                </h5>
+              </div>
+              <!--Card image-->
+              <div class="view overlay">
+                <img src="produtos/cerv1.png" class="card-img-top"
+                  alt="">
+                <div class="dt-produtos">
+                  <h5>Por: R$ 25,69</h5>
+                  <!-- Material input -->
+                  <div class="def-number-input number-input">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                    <input class="quantity" min="0" name="quantity" value="1" type="number">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+                  </div>
+                  <span>Em até 2x no cartão de crédito</span>
+                </div>
+                <div class="dt-button-carrinho">
+                  <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+                </div>
+              </div>
+              <!--Card image-->
+            </div>
+            <!--Card-->
+           </div>
+          <div>
+            <div class="card">
+              <div class="ct-and-title">
+                <!--Category & Title-->
+                  <h5>Cerveja Din Faxe 10% 1000ml</h5>
+                  <span>Din Faxe</small>
+                </h5>
+              </div>
+              <!--Card image-->
+              <div class="view overlay">
+                <img src="produtos/cerv1.png" class="card-img-top"
+                  alt="">
+                <div class="dt-produtos">
+                  <h5>Por: R$ 25,69</h5>
+                  <!-- Material input -->
+                  <div class="def-number-input number-input">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                    <input class="quantity" min="0" name="quantity" value="1" type="number">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+                  </div>
+                  <span>Em até 2x no cartão de crédito</span>
+                </div>
+                <div class="dt-button-carrinho">
+                  <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+                </div>
+              </div>
+              <!--Card image-->
+            </div>
+            <!--Card-->
+           </div>
+          <div>
+            <div class="card">
+              <div class="ct-and-title">
+                <!--Category & Title-->
+                  <h5>Cerveja Din Faxe 10% 1000ml</h5>
+                  <span>Din Faxe</small>
+                </h5>
+              </div>
+              <!--Card image-->
+              <div class="view overlay">
+                <img src="produtos/cerv1.png" class="card-img-top"
+                  alt="">
+                <div class="dt-produtos">
+                  <h5>Por: R$ 25,69</h5>
+                  <!-- Material input -->
+                  <div class="def-number-input number-input">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                    <input class="quantity" min="0" name="quantity" value="1" type="number">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+                  </div>
+                  <span>Em até 2x no cartão de crédito</span>
+                </div>
+                <div class="dt-button-carrinho">
+                  <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+                </div>
+              </div>
+              <!--Card image-->
+            </div>
+            <!--Card-->
+          </div>
+          <div>
+            <div class="card">
+              <div class="ct-and-title">
+                <!--Category & Title-->
+                  <h5>Cerveja Din Faxe 10% 1000ml</h5>
+                  <span>Din Faxe</small>
+                </h5>
+              </div>
+              <!--Card image-->
+              <div class="view overlay">
+                <img src="produtos/cerv1.png" class="card-img-top"
+                  alt="">
+                <div class="dt-produtos">
+                  <h5>Por: R$ 25,69</h5>
+                  <!-- Material input -->
+                  <div class="def-number-input number-input">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                    <input class="quantity" min="0" name="quantity" value="1" type="number">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+                  </div>
+                  <span>Em até 2x no cartão de crédito</span>
+                </div>
+                <div class="dt-button-carrinho">
+                  <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+                </div>
+              </div>
+              <!--Card image-->
+            </div>
+            <!--Card-->
+           </div>
+          <div>
+            <div class="card">
+              <div class="ct-and-title">
+                <!--Category & Title-->
+                  <h5>Cerveja Din Faxe 10% 1000ml</h5>
+                  <span>Din Faxe</small>
+                </h5>
+              </div>
+              <!--Card image-->
+              <div class="view overlay">
+                <img src="produtos/cerv1.png" class="card-img-top"
+                  alt="">
+                <div class="dt-produtos">
+                  <h5>Por: R$ 25,69</h5>
+                  <!-- Material input -->
+                  <div class="def-number-input number-input">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                    <input class="quantity" min="0" name="quantity" value="1" type="number">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+                  </div>
+                  <span>Em até 2x no cartão de crédito</span>
+                </div>
+                <div class="dt-button-carrinho">
+                  <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+                </div>
+              </div>
+              <!--Card image-->
+            </div>
+            <!--Card-->
+           </div>
+          <div>
+            <div class="card">
+              <div class="ct-and-title">
+                <!--Category & Title-->
+                  <h5>Cerveja Din Faxe 10% 1000ml</h5>
+                  <span>Din Faxe</small>
+                </h5>
+              </div>
+              <!--Card image-->
+              <div class="view overlay">
+                <img src="produtos/cerv1.png" class="card-img-top"
+                  alt="">
+                <div class="dt-produtos">
+                  <h5>Por: R$ 25,69</h5>
+                  <!-- Material input -->
+                  <div class="def-number-input number-input">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                    <input class="quantity" min="0" name="quantity" value="1" type="number">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+                  </div>
+                  <span>Em até 2x no cartão de crédito</span>
+                </div>
+                <div class="dt-button-carrinho">
+                  <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+                </div>
+              </div>
+              <!--Card image-->
+            </div>
+            <!--Card-->
+           </div>
+        </div>
+        <div class="divider"></div>
+        <div class="col-lg-12 col-md-12">
+          <div class="tp-card">
+            <i class="fas fa-star"></i> Produtos em Destaque
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12 owl-carousel owl-theme">
+        <div>
+          <div class="card">
+            <div class="ct-and-title">
+              <!--Category & Title-->
+                <h5>Cerveja Din Faxe 10% 1000ml</h5>
+                <span>Din Faxe</small>
+              </h5>
+            </div>
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="produtos/cerv1.png" class="card-img-top"
+                alt="">
+              <div class="dt-produtos">
+                <h5>Por: R$ 25,69</h5>
+                <!-- Material input -->
+                <div class="def-number-input number-input">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                  <input class="quantity" min="0" name="quantity" value="1" type="number">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+                </div>
+                <span>Em até 2x no cartão de crédito</span>
+              </div>
+              <div class="dt-button-carrinho">
+                <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+              </div>
+            </div>
+            <!--Card image-->
+          </div>
+          <!--Card-->
+        </div>
+        <div>
+          <div class="card">
+            <div class="ct-and-title">
+              <!--Category & Title-->
+                <h5>Cerveja Din Faxe 10% 1000ml</h5>
+                <span>Din Faxe</small>
+              </h5>
+            </div>
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="produtos/cerv1.png" class="card-img-top"
+                alt="">
+              <div class="dt-produtos">
+                <h5>Por: R$ 25,69</h5>
+                <!-- Material input -->
+                <div class="def-number-input number-input">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                  <input class="quantity" min="0" name="quantity" value="1" type="number">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+                </div>
+                <span>Em até 2x no cartão de crédito</span>
+              </div>
+              <div class="dt-button-carrinho">
+                <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+              </div>
+            </div>
+            <!--Card image-->
+          </div>
+          <!--Card-->
+         </div>
+        <div>
+          <div class="card">
+            <div class="ct-and-title">
+              <!--Category & Title-->
+                <h5>Cerveja Din Faxe 10% 1000ml</h5>
+                <span>Din Faxe</small>
+              </h5>
+            </div>
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="produtos/cerv1.png" class="card-img-top"
+                alt="">
+              <div class="dt-produtos">
+                <h5>Por: R$ 25,69</h5>
+                <!-- Material input -->
+                <div class="def-number-input number-input">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                  <input class="quantity" min="0" name="quantity" value="1" type="number">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+                </div>
+                <span>Em até 2x no cartão de crédito</span>
+              </div>
+              <div class="dt-button-carrinho">
+                <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+              </div>
+            </div>
+            <!--Card image-->
+          </div>
+          <!--Card-->
+         </div>
+        <div>
+          <div class="card">
+            <div class="ct-and-title">
+              <!--Category & Title-->
+                <h5>Cerveja Din Faxe 10% 1000ml</h5>
+                <span>Din Faxe</small>
+              </h5>
+            </div>
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="produtos/cerv1.png" class="card-img-top"
+                alt="">
+              <div class="dt-produtos">
+                <h5>Por: R$ 25,69</h5>
+                <!-- Material input -->
+                <div class="def-number-input number-input">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                  <input class="quantity" min="0" name="quantity" value="1" type="number">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+                </div>
+                <span>Em até 2x no cartão de crédito</span>
+              </div>
+              <div class="dt-button-carrinho">
+                <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+              </div>
+            </div>
+            <!--Card image-->
+          </div>
+          <!--Card-->
+        </div>
+        <div>
+          <div class="card">
+            <div class="ct-and-title">
+              <!--Category & Title-->
+                <h5>Cerveja Din Faxe 10% 1000ml</h5>
+                <span>Din Faxe</small>
+              </h5>
+            </div>
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="produtos/cerv1.png" class="card-img-top"
+                alt="">
+              <div class="dt-produtos">
+                <h5>Por: R$ 25,69</h5>
+                <!-- Material input -->
+                <div class="def-number-input number-input">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                  <input class="quantity" min="0" name="quantity" value="1" type="number">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+                </div>
+                <span>Em até 2x no cartão de crédito</span>
+              </div>
+              <div class="dt-button-carrinho">
+                <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+              </div>
+            </div>
+            <!--Card image-->
+          </div>
+          <!--Card-->
+         </div>
+        <div>
+          <div class="card">
+            <div class="ct-and-title">
+              <!--Category & Title-->
+                <h5>Cerveja Din Faxe 10% 1000ml</h5>
+                <span>Din Faxe</small>
+              </h5>
+            </div>
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="produtos/cerv1.png" class="card-img-top"
+                alt="">
+              <div class="dt-produtos">
+                <h5>Por: R$ 25,69</h5>
+                <!-- Material input -->
+                <div class="def-number-input number-input">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                  <input class="quantity" min="0" name="quantity" value="1" type="number">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+                </div>
+                <span>Em até 2x no cartão de crédito</span>
+              </div>
+              <div class="dt-button-carrinho">
+                <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+              </div>
+            </div>
+            <!--Card image-->
+          </div>
+          <!--Card-->
+         </div>
+        <div>
+          <div class="card">
+            <div class="ct-and-title">
+              <!--Category & Title-->
+                <h5>Cerveja Din Faxe 10% 1000ml</h5>
+                <span>Din Faxe</small>
+              </h5>
+            </div>
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="produtos/cerv1.png" class="card-img-top"
+                alt="">
+              <div class="dt-produtos">
+                <h5>Por: R$ 25,69</h5>
+                <!-- Material input -->
+                <div class="def-number-input number-input">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                  <input class="quantity" min="0" name="quantity" value="1" type="number">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+                </div>
+                <span>Em até 2x no cartão de crédito</span>
+              </div>
+              <div class="dt-button-carrinho">
+                <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+              </div>
+            </div>
+            <!--Card image-->
+          </div>
+          <!--Card-->
+         </div>
+      </div>
+      <div class="divider"></div>
+      <div class="col-lg-12 col-md-12">
+        <div class="tp-card">
+          <i class="fas fa-star"></i> Novidades
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12 owl-carousel owl-theme">
+      <div>
+        <div class="card">
+          <div class="ct-and-title">
+            <!--Category & Title-->
+              <h5>Cerveja Din Faxe 10% 1000ml</h5>
+              <span>Din Faxe</small>
+            </h5>
+          </div>
+          <!--Card image-->
+          <div class="view overlay">
+            <img src="produtos/cerv1.png" class="card-img-top"
+              alt="">
+            <div class="dt-produtos">
+              <h5>Por: R$ 25,69</h5>
+              <!-- Material input -->
+              <div class="def-number-input number-input">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                <input class="quantity" min="0" name="quantity" value="1" type="number">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+              </div>
+              <span>Em até 2x no cartão de crédito</span>
+            </div>
+            <div class="dt-button-carrinho">
+              <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <!--Card image-->
+        </div>
+        <!--Card-->
+      </div>
+      <div>
+        <div class="card">
+          <div class="ct-and-title">
+            <!--Category & Title-->
+              <h5>Cerveja Din Faxe 10% 1000ml</h5>
+              <span>Din Faxe</small>
+            </h5>
+          </div>
+          <!--Card image-->
+          <div class="view overlay">
+            <img src="produtos/cerv1.png" class="card-img-top"
+              alt="">
+            <div class="dt-produtos">
+              <h5>Por: R$ 25,69</h5>
+              <!-- Material input -->
+              <div class="def-number-input number-input">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                <input class="quantity" min="0" name="quantity" value="1" type="number">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+              </div>
+              <span>Em até 2x no cartão de crédito</span>
+            </div>
+            <div class="dt-button-carrinho">
+              <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <!--Card image-->
+        </div>
+        <!--Card-->
+       </div>
+      <div>
+        <div class="card">
+          <div class="ct-and-title">
+            <!--Category & Title-->
+              <h5>Cerveja Din Faxe 10% 1000ml</h5>
+              <span>Din Faxe</small>
+            </h5>
+          </div>
+          <!--Card image-->
+          <div class="view overlay">
+            <img src="produtos/cerv1.png" class="card-img-top"
+              alt="">
+            <div class="dt-produtos">
+              <h5>Por: R$ 25,69</h5>
+              <!-- Material input -->
+              <div class="def-number-input number-input">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                <input class="quantity" min="0" name="quantity" value="1" type="number">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+              </div>
+              <span>Em até 2x no cartão de crédito</span>
+            </div>
+            <div class="dt-button-carrinho">
+              <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <!--Card image-->
+        </div>
+        <!--Card-->
+       </div>
+      <div>
+        <div class="card">
+          <div class="ct-and-title">
+            <!--Category & Title-->
+              <h5>Cerveja Din Faxe 10% 1000ml</h5>
+              <span>Din Faxe</small>
+            </h5>
+          </div>
+          <!--Card image-->
+          <div class="view overlay">
+            <img src="produtos/cerv1.png" class="card-img-top"
+              alt="">
+            <div class="dt-produtos">
+              <h5>Por: R$ 25,69</h5>
+              <!-- Material input -->
+              <div class="def-number-input number-input">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                <input class="quantity" min="0" name="quantity" value="1" type="number">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+              </div>
+              <span>Em até 2x no cartão de crédito</span>
+            </div>
+            <div class="dt-button-carrinho">
+              <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <!--Card image-->
+        </div>
+        <!--Card-->
+      </div>
+      <div>
+        <div class="card">
+          <div class="ct-and-title">
+            <!--Category & Title-->
+              <h5>Cerveja Din Faxe 10% 1000ml</h5>
+              <span>Din Faxe</small>
+            </h5>
+          </div>
+          <!--Card image-->
+          <div class="view overlay">
+            <img src="produtos/cerv1.png" class="card-img-top"
+              alt="">
+            <div class="dt-produtos">
+              <h5>Por: R$ 25,69</h5>
+              <!-- Material input -->
+              <div class="def-number-input number-input">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                <input class="quantity" min="0" name="quantity" value="1" type="number">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+              </div>
+              <span>Em até 2x no cartão de crédito</span>
+            </div>
+            <div class="dt-button-carrinho">
+              <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <!--Card image-->
+        </div>
+        <!--Card-->
+       </div>
+      <div>
+        <div class="card">
+          <div class="ct-and-title">
+            <!--Category & Title-->
+              <h5>Cerveja Din Faxe 10% 1000ml</h5>
+              <span>Din Faxe</small>
+            </h5>
+          </div>
+          <!--Card image-->
+          <div class="view overlay">
+            <img src="produtos/cerv1.png" class="card-img-top"
+              alt="">
+            <div class="dt-produtos">
+              <h5>Por: R$ 25,69</h5>
+              <!-- Material input -->
+              <div class="def-number-input number-input">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                <input class="quantity" min="0" name="quantity" value="1" type="number">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+              </div>
+              <span>Em até 2x no cartão de crédito</span>
+            </div>
+            <div class="dt-button-carrinho">
+              <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <!--Card image-->
+        </div>
+        <!--Card-->
+       </div>
+      <div>
+        <div class="card">
+          <div class="ct-and-title">
+            <!--Category & Title-->
+              <h5>Cerveja Din Faxe 10% 1000ml</h5>
+              <span>Din Faxe</small>
+            </h5>
+          </div>
+          <!--Card image-->
+          <div class="view overlay">
+            <img src="produtos/cerv1.png" class="card-img-top"
+              alt="">
+            <div class="dt-produtos">
+              <h5>Por: R$ 25,69</h5>
+              <!-- Material input -->
+              <div class="def-number-input number-input">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+                <input class="quantity" min="0" name="quantity" value="1" type="number">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+              </div>
+              <span>Em até 2x no cartão de crédito</span>
+            </div>
+            <div class="dt-button-carrinho">
+              <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+            </div>
+          </div>
+          <!--Card image-->
+        </div>
+        <!--Card-->
+       </div>
+    </div>
+    <div class="divider"></div>
+    <div class="col-lg-12 col-md-12">
+      <div class="tp-card">
+        <i class="fas fa-star"></i> Frutas e Verduras
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 owl-carousel owl-theme">
+    <div>
+      <div class="card">
+        <div class="ct-and-title">
+          <!--Category & Title-->
+            <h5>Cerveja Din Faxe 10% 1000ml</h5>
+            <span>Din Faxe</small>
+          </h5>
+        </div>
+        <!--Card image-->
+        <div class="view overlay">
+          <img src="produtos/cerv1.png" class="card-img-top"
+            alt="">
+          <div class="dt-produtos">
+            <h5>Por: R$ 25,69</h5>
+            <!-- Material input -->
+            <div class="def-number-input number-input">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+              <input class="quantity" min="0" name="quantity" value="1" type="number">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+            </div>
+            <span>Em até 2x no cartão de crédito</span>
+          </div>
+          <div class="dt-button-carrinho">
+            <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <!--Card image-->
+      </div>
+      <!--Card-->
+    </div>
+    <div>
+      <div class="card">
+        <div class="ct-and-title">
+          <!--Category & Title-->
+            <h5>Cerveja Din Faxe 10% 1000ml</h5>
+            <span>Din Faxe</small>
+          </h5>
+        </div>
+        <!--Card image-->
+        <div class="view overlay">
+          <img src="produtos/cerv1.png" class="card-img-top"
+            alt="">
+          <div class="dt-produtos">
+            <h5>Por: R$ 25,69</h5>
+            <!-- Material input -->
+            <div class="def-number-input number-input">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+              <input class="quantity" min="0" name="quantity" value="1" type="number">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+            </div>
+            <span>Em até 2x no cartão de crédito</span>
+          </div>
+          <div class="dt-button-carrinho">
+            <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <!--Card image-->
+      </div>
+      <!--Card-->
+     </div>
+    <div>
+      <div class="card">
+        <div class="ct-and-title">
+          <!--Category & Title-->
+            <h5>Cerveja Din Faxe 10% 1000ml</h5>
+            <span>Din Faxe</small>
+          </h5>
+        </div>
+        <!--Card image-->
+        <div class="view overlay">
+          <img src="produtos/cerv1.png" class="card-img-top"
+            alt="">
+          <div class="dt-produtos">
+            <h5>Por: R$ 25,69</h5>
+            <!-- Material input -->
+            <div class="def-number-input number-input">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+              <input class="quantity" min="0" name="quantity" value="1" type="number">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+            </div>
+            <span>Em até 2x no cartão de crédito</span>
+          </div>
+          <div class="dt-button-carrinho">
+            <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <!--Card image-->
+      </div>
+      <!--Card-->
+     </div>
+    <div>
+      <div class="card">
+        <div class="ct-and-title">
+          <!--Category & Title-->
+            <h5>Cerveja Din Faxe 10% 1000ml</h5>
+            <span>Din Faxe</small>
+          </h5>
+        </div>
+        <!--Card image-->
+        <div class="view overlay">
+          <img src="produtos/cerv1.png" class="card-img-top"
+            alt="">
+          <div class="dt-produtos">
+            <h5>Por: R$ 25,69</h5>
+            <!-- Material input -->
+            <div class="def-number-input number-input">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+              <input class="quantity" min="0" name="quantity" value="1" type="number">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+            </div>
+            <span>Em até 2x no cartão de crédito</span>
+          </div>
+          <div class="dt-button-carrinho">
+            <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <!--Card image-->
+      </div>
+      <!--Card-->
+    </div>
+    <div>
+      <div class="card">
+        <div class="ct-and-title">
+          <!--Category & Title-->
+            <h5>Cerveja Din Faxe 10% 1000ml</h5>
+            <span>Din Faxe</small>
+          </h5>
+        </div>
+        <!--Card image-->
+        <div class="view overlay">
+          <img src="produtos/cerv1.png" class="card-img-top"
+            alt="">
+          <div class="dt-produtos">
+            <h5>Por: R$ 25,69</h5>
+            <!-- Material input -->
+            <div class="def-number-input number-input">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+              <input class="quantity" min="0" name="quantity" value="1" type="number">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+            </div>
+            <span>Em até 2x no cartão de crédito</span>
+          </div>
+          <div class="dt-button-carrinho">
+            <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <!--Card image-->
+      </div>
+      <!--Card-->
+     </div>
+    <div>
+      <div class="card">
+        <div class="ct-and-title">
+          <!--Category & Title-->
+            <h5>Cerveja Din Faxe 10% 1000ml</h5>
+            <span>Din Faxe</small>
+          </h5>
+        </div>
+        <!--Card image-->
+        <div class="view overlay">
+          <img src="produtos/cerv1.png" class="card-img-top"
+            alt="">
+          <div class="dt-produtos">
+            <h5>Por: R$ 25,69</h5>
+            <!-- Material input -->
+            <div class="def-number-input number-input">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+              <input class="quantity" min="0" name="quantity" value="1" type="number">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+            </div>
+            <span>Em até 2x no cartão de crédito</span>
+          </div>
+          <div class="dt-button-carrinho">
+            <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <!--Card image-->
+      </div>
+      <!--Card-->
+     </div>
+    <div>
+      <div class="card">
+        <div class="ct-and-title">
+          <!--Category & Title-->
+            <h5>Cerveja Din Faxe 10% 1000ml</h5>
+            <span>Din Faxe</small>
+          </h5>
+        </div>
+        <!--Card image-->
+        <div class="view overlay">
+          <img src="produtos/cerv1.png" class="card-img-top"
+            alt="">
+          <div class="dt-produtos">
+            <h5>Por: R$ 25,69</h5>
+            <!-- Material input -->
+            <div class="def-number-input number-input">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+              <input class="quantity" min="0" name="quantity" value="1" type="number">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+            </div>
+            <span>Em até 2x no cartão de crédito</span>
+          </div>
+          <div class="dt-button-carrinho">
+            <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <!--Card image-->
+      </div>
+      <!--Card-->
+     </div>
+  </div>
+  <div class="divider"></div>
+  <div class="col-lg-12 col-md-12">
+    <div class="tp-card">
+      <i class="fas fa-star"></i> Bebidas Alcoólicas
+    </div>
+  </div>
+  <div class="col-lg-12 col-md-12 owl-carousel owl-theme">
+  <div>
+    <div class="card">
+      <div class="ct-and-title">
+        <!--Category & Title-->
+          <h5>Cerveja Din Faxe 10% 1000ml</h5>
+          <span>Din Faxe</small>
+        </h5>
+      </div>
+      <!--Card image-->
+      <div class="view overlay">
+        <img src="produtos/cerv1.png" class="card-img-top"
+          alt="">
+        <div class="dt-produtos">
+          <h5>Por: R$ 25,69</h5>
+          <!-- Material input -->
+          <div class="def-number-input number-input">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+            <input class="quantity" min="0" name="quantity" value="1" type="number">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+          </div>
+          <span>Em até 2x no cartão de crédito</span>
+        </div>
+        <div class="dt-button-carrinho">
+          <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+        </div>
+      </div>
+      <!--Card image-->
+    </div>
+    <!--Card-->
+  </div>
+  <div>
+    <div class="card">
+      <div class="ct-and-title">
+        <!--Category & Title-->
+          <h5>Cerveja Din Faxe 10% 1000ml</h5>
+          <span>Din Faxe</small>
+        </h5>
+      </div>
+      <!--Card image-->
+      <div class="view overlay">
+        <img src="produtos/cerv1.png" class="card-img-top"
+          alt="">
+        <div class="dt-produtos">
+          <h5>Por: R$ 25,69</h5>
+          <!-- Material input -->
+          <div class="def-number-input number-input">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+            <input class="quantity" min="0" name="quantity" value="1" type="number">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+          </div>
+          <span>Em até 2x no cartão de crédito</span>
+        </div>
+        <div class="dt-button-carrinho">
+          <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+        </div>
+      </div>
+      <!--Card image-->
+    </div>
+    <!--Card-->
+   </div>
+  <div>
+    <div class="card">
+      <div class="ct-and-title">
+        <!--Category & Title-->
+          <h5>Cerveja Din Faxe 10% 1000ml</h5>
+          <span>Din Faxe</small>
+        </h5>
+      </div>
+      <!--Card image-->
+      <div class="view overlay">
+        <img src="produtos/cerv1.png" class="card-img-top"
+          alt="">
+        <div class="dt-produtos">
+          <h5>Por: R$ 25,69</h5>
+          <!-- Material input -->
+          <div class="def-number-input number-input">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+            <input class="quantity" min="0" name="quantity" value="1" type="number">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+          </div>
+          <span>Em até 2x no cartão de crédito</span>
+        </div>
+        <div class="dt-button-carrinho">
+          <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+        </div>
+      </div>
+      <!--Card image-->
+    </div>
+    <!--Card-->
+   </div>
+  <div>
+    <div class="card">
+      <div class="ct-and-title">
+        <!--Category & Title-->
+          <h5>Cerveja Din Faxe 10% 1000ml</h5>
+          <span>Din Faxe</small>
+        </h5>
+      </div>
+      <!--Card image-->
+      <div class="view overlay">
+        <img src="produtos/cerv1.png" class="card-img-top"
+          alt="">
+        <div class="dt-produtos">
+          <h5>Por: R$ 25,69</h5>
+          <!-- Material input -->
+          <div class="def-number-input number-input">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+            <input class="quantity" min="0" name="quantity" value="1" type="number">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+          </div>
+          <span>Em até 2x no cartão de crédito</span>
+        </div>
+        <div class="dt-button-carrinho">
+          <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+        </div>
+      </div>
+      <!--Card image-->
+    </div>
+    <!--Card-->
+  </div>
+  <div>
+    <div class="card">
+      <div class="ct-and-title">
+        <!--Category & Title-->
+          <h5>Cerveja Din Faxe 10% 1000ml</h5>
+          <span>Din Faxe</small>
+        </h5>
+      </div>
+      <!--Card image-->
+      <div class="view overlay">
+        <img src="produtos/cerv1.png" class="card-img-top"
+          alt="">
+        <div class="dt-produtos">
+          <h5>Por: R$ 25,69</h5>
+          <!-- Material input -->
+          <div class="def-number-input number-input">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+            <input class="quantity" min="0" name="quantity" value="1" type="number">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+          </div>
+          <span>Em até 2x no cartão de crédito</span>
+        </div>
+        <div class="dt-button-carrinho">
+          <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+        </div>
+      </div>
+      <!--Card image-->
+    </div>
+    <!--Card-->
+   </div>
+  <div>
+    <div class="card">
+      <div class="ct-and-title">
+        <!--Category & Title-->
+          <h5>Cerveja Din Faxe 10% 1000ml</h5>
+          <span>Din Faxe</small>
+        </h5>
+      </div>
+      <!--Card image-->
+      <div class="view overlay">
+        <img src="produtos/cerv1.png" class="card-img-top"
+          alt="">
+        <div class="dt-produtos">
+          <h5>Por: R$ 25,69</h5>
+          <!-- Material input -->
+          <div class="def-number-input number-input">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+            <input class="quantity" min="0" name="quantity" value="1" type="number">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+          </div>
+          <span>Em até 2x no cartão de crédito</span>
+        </div>
+        <div class="dt-button-carrinho">
+          <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+        </div>
+      </div>
+      <!--Card image-->
+    </div>
+    <!--Card-->
+   </div>
+  <div>
+    <div class="card">
+      <div class="ct-and-title">
+        <!--Category & Title-->
+          <h5>Cerveja Din Faxe 10% 1000ml</h5>
+          <span>Din Faxe</small>
+        </h5>
+      </div>
+      <!--Card image-->
+      <div class="view overlay">
+        <img src="produtos/cerv1.png" class="card-img-top"
+          alt="">
+        <div class="dt-produtos">
+          <h5>Por: R$ 25,69</h5>
+          <!-- Material input -->
+          <div class="def-number-input number-input">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+            <input class="quantity" min="0" name="quantity" value="1" type="number">
+            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+          </div>
+          <span>Em até 2x no cartão de crédito</span>
+        </div>
+        <div class="dt-button-carrinho">
+          <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+        </div>
+      </div>
+      <!--Card image-->
+    </div>
+    <!--Card-->
+   </div>
+</div>
+<div class="divider"></div>
+<div class="col-lg-12 col-md-12">
+  <div class="tp-card">
+    <i class="fas fa-star"></i> Higiene e Beleza
+  </div>
+</div>
+<div class="col-lg-12 col-md-12 owl-carousel owl-theme">
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+</div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+</div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+</div>
+<div class="divider"></div>
+<div class="col-lg-12 col-md-12">
+  <div class="tp-card">
+    <i class="fas fa-star"></i> Pet Shop
+  </div>
+</div>
+<div class="col-lg-12 col-md-12 owl-carousel owl-theme">
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+</div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+</div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+</div>
+<div class="divider"></div>
+<div class="col-lg-12 col-md-12">
+  <div class="tp-card">
+    <i class="fas fa-star"></i> Congelados
+  </div>
+</div>
+<div class="col-lg-12 col-md-12 owl-carousel owl-theme">
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+</div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho btn-adicionado" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+</div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+<div>
+  <div class="card">
+    <div class="ct-and-title">
+      <!--Category & Title-->
+        <h5>Cerveja Din Faxe 10% 1000ml</h5>
+        <span>Din Faxe</small>
+      </h5>
+    </div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img src="produtos/cerv1.png" class="card-img-top"
+        alt="">
+      <div class="dt-produtos">
+        <h5>Por: R$ 25,69</h5>
+        <!-- Material input -->
+        <div class="def-number-input number-input">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"><i class="fas fa-minus-circle"></i></button>
+          <input class="quantity" min="0" name="quantity" value="1" type="number">
+          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <span>Em até 2x no cartão de crédito</span>
+      </div>
+      <div class="dt-button-carrinho">
+        <button class="btn btn-carrinho" type="button" name="button"><i class="fas fa-shopping-cart"></i> Adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!--Card image-->
+  </div>
+  <!--Card-->
+ </div>
+</div>
+      </section>
+      <!--Section: Products v.3-->
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 cinza fadeIn">
+    <div class="container">
+      <div class="row">
+      <div class="col-lg-3 col-md-3 dt-footer">
+        <h2>Central de Relacionamento</h2>
+        <ul>
+          <li><a href="#">Atendimento</a></li>
+          <li><a href="#">Políticas de Entrega</a></li>
+          <li><a href="#">Informações sobre frete</a></li>
+          <li><a href="#">trocas e devoluções</a></li>
+          <li><a href="#">Políticas de privacidade</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 dt-footer">
+        <h2>Institucional</h2>
+        <ul>
+          <li><a href="#">Quem somos</a></li>
+          <li><a href="#">Termos de uso</a></li>
+          <li><a href="#">Trabalhe conosco</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 dt-footer">
+        <h2>Sac</h2>
+        <ul>
+          <li><a href="#">(83) 2102-5306</a></li>
+          <li><a href="#">(83) 9.9400-7943</a></li>
+          <li><a href="#">sac@redecompras.com</a></li>
+        </ul>
+        <div class="clearfix"></div>
+        <h2>Horário de Atendimento</h2>
+        <ul>
+          <li><a href="#">Segunda a sexta - 08:30 às 17:30</a></li>
+          <li><a href="#">Sábado - 08:30 às 11:30</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 dt-footer">
+        <h2>Outras Formas de Pagamento</h2>
+        <ul>
+          <li><a href="#">Formulários de contatos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 dt-footer">
+        <h2>Mídias Sociais</h2>
+        <a href="#"><img src="img/facebook.png" alt="facebook"> </a>
+        <a href="#"><img src="img/youtube.png" alt="youtube"> </a>
+        <a href="#"><img src="img/instagram.png" alt="instagram"> </a>
+      </div>
+      <div class="col-lg-4 col-md-4 dt-footer">
+        <h2>Site Seguro</h2>
+        <a href="#"><img src="img/clearsale.png" alt="clearsale"> </a>
+        <a href="#"><img src="img/protected.png" alt="protected"> </a>
+      </div>
+      <div class="col-lg-4 col-md-4 dt-footer">
+        <h2>Formas de Pagamento</h2>
+        <img src="img/visa.png" alt="visa">
+        <img src="img/mastercard.png" alt="mastercard">
+        <img src="img/hipercard.png" alt="hipercard">
+        <img src="img/hiper.png" alt="hiper">
+        <img src="img/doesclub.png" alt="doesclub">
+      </div>
+    </div>
+    </div>
+    <div class="divider">
+
+    </div>
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2017 acreanosacoleiro.com.br | Todos os direitos reservados.
+Rua josé maria rios - 152, Vila Ivonete, Rio Branco-AC - CEP 69918556 / CNPJ 22.028.592-0001-92
+      <a href="#" target="_blank">  </a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="owl-carousel/owl.carousel.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+
+  </script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      loop:true,
+      margin:10,
+      lazyLoad:true,
+      responsiveClass:true,
+      responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:false,
+            loop:false
+        }
+      }
+    });
+  });
+  </script>
+</body>
+
+</html>
