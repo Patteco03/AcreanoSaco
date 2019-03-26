@@ -69,19 +69,21 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <!-- Left -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
+        <ul class="navbar-nav col-md-8">
+          <li class="nav-item" style="width: 100%;">
             <!-- Search form -->
-            <form class="form-inline ">
-              <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search" aria-label="Search">
-              <i class="fas fa-search" aria-hidden="true"></i>
-            </form>
-
+            <div class="input-group md-form form-sm form-2 pl-0">
+              <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Procure por um ou mais produtos. Ex: Arroz, Feijão, etc." aria-label="Search">
+              <div class="input-group-append">
+                <span class="input-group-text amber lighten-3" id="basic-text1"><i class="fas fa-search text-grey"
+                    aria-hidden="true"></i></span>
+              </div>
+            </div>
           </li>
         </ul>
 
         <!-- Right -->
-        <ul class="navbar-nav nav-flex-icons">
+        <ul class="navbar-nav nav-flex-icons col-md-4">
           <li class="nav-item">
             <a href="#" class="nav-link waves-effect" target="_blank" style="color: #666666;">
               <i class="fas fa-user"></i>
