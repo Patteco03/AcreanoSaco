@@ -86,19 +86,25 @@
       <div class="row d-flex justify-content-center">
           <div class="col-md-12">
             <div class="text-center">
-              <img src="img/logo-500.png" alt="logo">
+              <img class="img-fluid" src="img/logo-500.png" alt="logo">
             </div>
           </div>
           <div class="col-md-12 text-center form-cep">
             <!-- Default input -->
-            <label for="exampleForm2">Onde você quer receber ? </label>
-            <input type="text" id="exampleForm2" class="form-control cep" placeholder="CEP" maxlength="9">
+            <label for="exampleForm2">Faça seu login </label>
+            <form class="" action="" method="post">
+              <div class="spaceonput">
+                  <input type="email" id="exampleForm2" class="form-control" placeholder="seu.email@exemplo.com.br">
+              </div>
+              <div class="spaceonput">
+                <input type="password" id="exampleForm2" class="form-control" placeholder="Sua senha">
+              </div>
+            </form>
+            <a href="#" class="as-button"><button class="btn btn-info" type="button" name="button">Entrar</button></a>
+            <a href="#" class="as-button"><button class="btn btn-primary" type="button" name="button">Entrar com facebook</button></a>
             <hr>
-            <div class="loginin">
-              <label for="exampleForm2">já possu cadastro ? </label><br>
-              <a href="checkout-login.html"><button class="btn btn-dark-green" type="button" name="button">Sim</button></a>
-              <a href="register.html"><button class="btn btn-primary" type="button" name="button">Não</button></a>
-            </div>
+              <a for="exampleForm2"><strong>Esqueceu a sua senha ?</strong></a><br>
+              <label for="exampleForm2">Ainda não tem uma conta ?<a href="register.html"> <strong> Cadastre-se</strong> </a></label>
           </div>
       </div>
       <!--/.div row  -->

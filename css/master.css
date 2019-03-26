@@ -200,6 +200,11 @@
 
 .form-cep{
   color: #fff;
+  width: 95%;
+  margin: 35px auto;
+  max-width: 390px;
+  padding: 30px;
+  color: #fff;
 }
 
 .form-cep input{
@@ -209,13 +214,33 @@
   line-height: 1.3333333;
   background-color: rgba(255,255,255,.4);
   color: #fff;
-  width: 40%;
-  margin: auto;
+  width: 100%;
   border-radius: 4px;
   text-align: center;
+  font-weight: inherit;
 }
 
 .form-cep input:focus{
   border: none;
   box-shadow: none;
+  background-color: rgba(255,255,255,.4);
+  color: #fff;
+}
+
+.spaceonput{
+  padding: 5px 0px;
+  margin-left: 5px;
+  margin-right: -5px;
+}
+
+.form-cep input::placeholder{
+  color: #fff;
+}
+
+.loginin{
+  display: none;
+}
+
+.as-button button{
+  width: 100%;
 }
