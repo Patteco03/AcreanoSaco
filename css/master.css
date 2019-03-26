@@ -187,3 +187,35 @@
 .dt-footer ul li a{
   color: #666666;
 }
+
+
+/* ===== Page Login ======*/
+.bg-login{
+  background: url(../img/bg-login.jpg) center top no-repeat #3d3d3d;
+  background-size: auto;
+  background-size: cover;
+  padding: 20px 0px;
+  min-height: 500px;
+}
+
+.form-cep{
+  color: #fff;
+}
+
+.form-cep input{
+  height: 38.4px;
+  padding: 10px 16px;
+  font-size: 17px;
+  line-height: 1.3333333;
+  background-color: rgba(255,255,255,.4);
+  color: #fff;
+  width: 40%;
+  margin: auto;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.form-cep input:focus{
+  border: none;
+  box-shadow: none;
+}
