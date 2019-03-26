@@ -244,3 +244,15 @@
 .as-button button{
   width: 100%;
 }
+
+/*======== page painel =======*/
+
+.home-painel{
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+}
+.title-painel h2{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
