@@ -72,6 +72,9 @@
 .tp-card i{
   color: #299C48 !important;
 }
+.card-img-top{
+  max-width: 270px;
+}
 .ct-and-title{
   padding: 10px 5px;
   text-align: left;
@@ -104,14 +107,23 @@
   color: #909090;
   font-size: 12px;
 }
+.dt-button-carrinho{
+  width: 95%;
+}
 .btn-carrinho{
   background-color: #299C48;
   border-radius: 0.3rem;
   font-size: 0.6rem;
+  margin: 0 auto;
+  width: 100%;
 }
 .btn-adicionado{
   background-color: #F8C41C !important;
   color: #666666 !important;
+}
+.btn-adicionado:hover{
+  background-color: #F8C41C !important;
+  color: #fff !important;
 }
 .number-input.number-input i{
   color: #2F2975;
