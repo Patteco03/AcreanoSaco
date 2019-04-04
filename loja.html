@@ -85,14 +85,14 @@
         <!-- Right -->
         <ul class="navbar-nav nav-flex-icons col-md-4">
           <li class="nav-item">
-            <a href="login.html" class="nav-link waves-effect" style="color: #666666;">
+            <a href="checkout-login.html" class="nav-link waves-effect" style="color: #666666;">
               <i class="fas fa-user"></i>
               <span class="clearfix d-none d-sm-inline-block"> Entre ou cadastre-se </span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link waves-effect" style="color: #666666;">
-              <span class="badge red z-depth-1 mr-1"> 50 </span>
+            <a data-toggle="modal" data-target="#modalPoll-1" class="nav-link waves-effect" style="color: #666666;">
+              <span class="badge red z-depth-1 mr-1"> 8 </span>
               <i class="fas fa-shopping-cart"></i>
             </a>
           </li>
@@ -2040,10 +2040,13 @@
                 <div id="" class="">
                   <!--itens-->
                   <div class="dv-itens" role="listbox">
-                    <div class="dv-itens-active">
-                      <img class="d-block w-100"
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(23).jpg"
+                    <div class="dv-itens-active text-center">
+                      <img class="img-fluid"
+                      src="img/produtos/Pet Shop/Ração para cães Heroi 2kg AD carne +vegetal.png"
                       alt="First slide">
+                      <div class="w-100">
+                        <p>Imagem meramente Ilustrada</p>
+                      </div>
                     </div>
                   </div>
                   <!--/.itens-->
@@ -2051,27 +2054,32 @@
                 <!--/.modal destaque-->
               </div>
               <div class="col-lg-7">
-                <h2 class="h2-responsive product-name">
+                <h4 class="h4-responsive product-name">
                   <strong>Cerveja Din Faxe 10% 1000ml</strong>
-                </h2>
-                <h4 class="h4-responsive">
-                  <span class="green-text">
-                    <strong>R$ 32,00</strong>
-                  </span>
-                  <span class="grey-text">
-                    <small>
-                      <s>R$ 25,69</s>
-                    </small>
-                  </span>
                 </h4>
-
-
+                <div class="produt-deta">
+                  <div class="off">
+                    <span class="badge badge-pill danger-color-dark">25% OFF</span>
+                    <span class="price">R$1,04</span>
+                  </div>
+                  <div class="price-un">
+                    <div class="">
+                      R$0,78 cada
+                    </div>
+                    <div class="">
+                      R$3,00 / KG
+                    </div>
+                  </div>
+                  <div class="">
+                    <a href=""><i class="far fa-gem mr-2"
+    aria-hidden="true"></i>Button</a>
+                  </div>
+                </div>
                 <!-- Add to Cart -->
                 <div class="card-body">
                   <div class="text-center">
-
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
-                    <button class="btn btn-primary">add ao carrinho
+                    <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                    <button class="btn">add ao carrinho
                       <i class="fas fa-cart-plus ml-2" aria-hidden="true"></i>
                     </button>
                   </div>
@@ -2083,6 +2091,88 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal to Cart -->
+<div class="modal fade right" id="modalPoll-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true" data-backdrop="false">
+  <div class="modal-dialog modal-full-height modal-right modal-notify modal-info" role="document">
+    <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header">
+        <p class="heading lead">Minha Lista
+        </p>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" class="white-text">×</span>
+        </button>
+      </div>
+
+      <!--Body-->
+      <div class="modal-body">
+      <table class="table table-list-produtos">
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td><img src="img/produtos/Produtos em promoção/pilsen.png" ></td>
+              <td>Cerveja Eisenbahn Pilsen 600ml - R$6,99</td>
+              <td><a><i class="fas fa-times"></i></a></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td><img src="img/produtos/Produtos em promoção/Cerveja faxe - Wilbier.png"></td>
+              <td>Cerveja Din Faxe Witbier 1000ml - R$26,24</td>
+              <td><a><i class="fas fa-times"></i></a></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td><img src="img/produtos/Produtos em destaque/Sundown FPS30 - 200 ml e sundown kids FPS30 - 120 m.png"></td>
+              <td>Sundown Fps30 200ml Gts Sundown Kids Fps30 120ml - R$39,99</td>
+              <td><a><i class="fas fa-times"></i></a></td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td><img src="img/produtos/Novidades/Pão Pullman 330g RAP 10 light.png" class="card-img-top" alt=""></td>
+              <td>Pao Pullman 330g Rap 10 light - R$8,79</td>
+              <td><a><i class="fas fa-times"></i></a></td>
+            </tr>
+             <tr>
+              <th scope="row">5</th>
+              <td><img src="img/produtos/Frutas e Verduras/Cenoura - KG.png" class="card-img-top" alt=""></td>
+              <td>Cenoura Kg - R$4,61</td>
+              <td><a><i class="fas fa-times"></i></a></td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td><img src="img/produtos/Frutas e Verduras/Kiwi Importado - KG.png" class="card-img-top" alt=""></td>
+              <td>Kiwi Importado KG - R$20,99</td>
+              <td><a><i class="fas fa-times"></i></a></td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td><img src="img/produtos/Higiene e Beleza/Algodão Cotton 50g Quadradinho.png" class="card-img-top" alt=""></td>
+              <td>Algodao Cotton 50g Quadradinho - R$3,49</td>
+              <td><a><i class="fas fa-times"></i></a></td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td><img src="img/produtos/Higiene e Beleza/Lenço umedecido Dove Baby Wipis com 50 Hidra Sensível.png" class="card-img-top" alt=""></td>
+              <td>Lenco Umedecido Dove Baby Wipis C/50 Hidra Sensivel - R$13,49</td>
+              <td><a><i class="fas fa-times"></i></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer" style="background-color: #eeeeee;">
+        <div class="preco-final-modal">
+          <span>Total: R$ 113,90</span>
+          <a href="checkout-page.html" class="w-100"><button type="button" class="btn btn-carrinho">Continuar</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
   </main>
   <!--Main layout-->
 

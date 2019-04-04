@@ -333,3 +333,20 @@
 .navbar .dropdown-menu a{
   padding: 0px 10px !important;
 }
+
+.preco-final-modal{
+  width: 100%;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.preco-final-modal span{
+  font-size: 1rem;
+  font-weight: 700;
+  color: #666;
+
+}
+
+.table-list-produtos tbody tr td img{
+  width: 25px;
+}
