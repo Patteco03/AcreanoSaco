@@ -355,6 +355,25 @@
 
 
 /* ========== Modal Detais Product =========== */
+.dv-itens-active{
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  display: block;
+  width: 400px;
+  min-height: 300px;
+}
+.dv-itens-active img{
+  width: 100%;
+  max-width: 200px;
+  -webkit-animation-name: opacity;
+  animation-name: opacity;
+  -webkit-animation-duration: .3s;
+  animation-duration: .3s;
+}
+.dv-itens-active p{
+  color: #ccc;
+}
 .produt-deta .off .price{
   font-size: 12px;
   text-decoration: line-through;
@@ -364,6 +383,7 @@
 .price-detls{
   margin-top: 10px;
   font-size: 18px;
+  font-weight: 600;
 }
 
 .price-detls span{
@@ -382,7 +402,7 @@
   font-size: 1rem;
 }
 .add-favorite a:hover i{
-  color: #EC1C24;
+  color: #B61200;
 }
 
 .product-name{
@@ -392,10 +412,10 @@
 }
 
 .add-favorite{
-  padding: 15px 0px;
+  padding: 10px 0px;
 }
 .btn-add-red{
-  background-color: #EC1C24 !important;
+  background-color: #B61200 !important;
   color: #fff !important;
   margin-top: 0px;
   margin-left: 0px;
@@ -405,7 +425,7 @@
   width: 100%;
 }
 .number-input-details i{
-  color: #EC1C24;
+  color: #B61200;
 }
 .number-input-details input[type="number"] {
   -webkit-appearance: textfield;
@@ -420,7 +440,7 @@
 }
 .number-input-details {
   margin-bottom: 15px;
-  border: 1px solid #EC1C24;
+  border: 1px solid #B61200;
   border-radius: 25px;
 }
 .number-input-details button {
