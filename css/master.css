@@ -138,6 +138,7 @@
   -webkit-appearance: textfield;
   -moz-appearance: textfield;
   appearance: textfield;
+  outline: none;
 }
 .number-input input[type=number]::-webkit-inner-spin-button,
 .number-input input[type=number]::-webkit-outer-spin-button {
@@ -155,6 +156,7 @@
   cursor: pointer;
   margin: 0;
   position: relative;
+  outline: none;
 }
 .number-input input[type=number] {
   text-align: center;
@@ -349,4 +351,111 @@
 
 .table-list-produtos tbody tr td img{
   width: 25px;
+}
+
+
+/* ========== Modal Detais Product =========== */
+.produt-deta .off .price{
+  font-size: 12px;
+  text-decoration: line-through;
+  color: #999;
+  padding: 10px;
+}
+.price-detls{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.price-detls span{
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.price-conversion{
+  font-size: 15px;
+  color: #828282;
+  margin-top: 10px;
+}
+
+.add-favorite a{
+  color: #5c5c5c;
+  font-size: 1rem;
+}
+.add-favorite a:hover i{
+  color: #EC1C24;
+}
+
+.product-name{
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 400;
+}
+
+.add-favorite{
+  padding: 15px 0px;
+}
+.btn-add-red{
+  background-color: #EC1C24 !important;
+  color: #fff !important;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 0.8rem;
+  width: 100%;
+}
+.number-input-details i{
+  color: #EC1C24;
+}
+.number-input-details input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  outline: none;
+}
+.number-input-details input[type=number]::-webkit-inner-spin-button,
+.number-input-details input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  outline: none;
+}
+.number-input-details {
+  margin-bottom: 15px;
+  border: 1px solid #EC1C24;
+  border-radius: 25px;
+}
+.number-input-details button {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  outline: none;
+}
+.number-input-details input[type=number] {
+  text-align: center;
+}
+.number-input-details {
+  width: 100%;
+}
+.number-input-details button.minus {
+  padding-left: 20px;
+}
+.number-input-details button.plus {
+  padding-right: 20px;
+}
+.number-input-details button:before,
+.number-input-details button:after {
+  width: .7rem;
+  background-color: #495057;
+}
+.number-input-details input[type=number] {
+  max-width: 40px;
+  padding: .5rem;
+  border: none;
+  font-size: 1rem;
+  height: 2rem;
+  color: #495057;
 }
