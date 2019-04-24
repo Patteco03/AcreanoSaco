@@ -1,3 +1,4 @@
+
 .divider{
   padding: 40px 0px;
   width: 100%;
@@ -353,6 +354,9 @@
   width: 25px;
 }
 
+.table-list-produtos tr th a{
+  font-size: 20px !important;
+}
 
 /* ========== Modal Detais Product =========== */
 .dv-itens-active{
@@ -480,3 +484,41 @@
   color: #495057;
 }
 
+<<<<<<< HEAD
+=======
+/* ============ Page Chekout =========== */
+.title-carrinho-chegout{
+  border-bottom: 1px solid #af0a00;
+}
+.table-price{
+  font-weight: bold;
+}
+.spq h4{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.tabs-cyan li {
+  width: 40%;
+  margin: 0px 20px;
+  text-align: center;
+  font-size: 1rem;
+  border-bottom: 2px solid #ccc;
+}
+
+.tabs-cyan li a{
+  color: #000;
+}
+
+.tabs-cyan li:active{
+  border-bottom: 2px solid #fb3;
+}
+
+.tabs-cyan li:hover{
+  border-bottom: 2px solid #fb3;
+}
+
+.form-checkout{
+  margin: 0px 20px;
+}
+>>>>>>> 394c914431e5f75ebfdbeb072157ac7fea31a9eb
