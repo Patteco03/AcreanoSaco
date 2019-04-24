@@ -513,111 +513,129 @@
   aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <div class="modal-body">
-       <!--Header-->
-       <div class="modal-header d-flex justify-content-center">
-        <p class="heading">Cadastro de Produtos</p>
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Informações do Produto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-      <br>
-      <h4 class="text-center">Dados Gerais</h4>
-      <br>
-      <form>
-        <div class="form-row">
-          <div class="col-6">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="Nome do Fornecedor (Razão Social)">
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="CNPJ">
-            </div>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="col-12">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="Descrição completa do produto (Produto + Tipo + Detalhes + Marca + Conteúdo)">
-            </div>
-          </div>    
-        </div>
-        <div class="form-row">
-          <div class="col-3">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="Complemento Desc (sabor/Fragância)">
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="Código de Barras EAN13">
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="Código Interno Fornecedor">
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="Marca">
-            </div>
-          </div>       
-        </div>
-        <div class="form-row">
-          <div class="col-3">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="Embalagem de Entrada / Quantidade / DUN14">
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="Tipo Baixa">
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="Produto Pesável ? (Sim / Não)">
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="Marca">
-            </div>
-          </div>       
-        </div>
-        <div class="form-row">
-          <div class="col-4">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="Peso Bruto">
-            </div>
-          </div>       
-        </div>
+      <div class="modal-body">
+        <h4 class="text-center">Dados Gerais</h4>
         <br>
-        <h4 class="text-center">Produtos da Grade</h4>
-        <br>
-        <div class="form-row">
-          <div class="col-3">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="Complemento Desc(sabor/fragancia)">
+        <form>
+          <div class="form-row">
+            <div class="col-6">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="Nome do Fornecedor (Razão Social)">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="CNPJ">
+              </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="Código de Barras EAN13">
-            </div>
+          <div class="form-row">
+            <div class="col-12">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="Descrição completa do produto (Produto + Tipo + Detalhes + Marca + Conteúdo)">
+              </div>
+            </div>    
           </div>
-          <div class="col-3">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="DUN14 / Quantidade">
+          <div class="form-row">
+            <div class="col-3">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="Complemento Desc (sabor/Fragância)">
+              </div>
             </div>
+            <div class="col-3">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="Código de Barras EAN13">
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="Código Interno Fornecedor">
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="Marca">
+              </div>
+            </div>       
           </div>
-          <div class="col-3">
-            <div class="md-form mt-0">
-              <input type="text" class="form-control" placeholder="Código Interno Fornecedor">
+          <div class="form-row">
+            <div class="col-3">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="Embalagem de Entrada / Quantidade / DUN14">
+              </div>
             </div>
-          </div>       
-        </div>
-      </form>
+            <div class="col-3">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="Tipo Baixa">
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="Produto Pesável ? (Sim / Não)">
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="Marca">
+              </div>
+            </div>       
+          </div>
+          <div class="form-row">
+            <div class="col-4">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="Peso Bruto">
+              </div>
+            </div>       
+          </div>
+          <br>
+          <h4 class="text-center">Produtos da Grade</h4>
+          <br>
+          <div class="form-row">
+            <div class="col-3">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="Complemento Desc(sabor/fragancia)">
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="Código de Barras EAN13">
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="DUN14 / Quantidade">
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="md-form mt-0">
+                <input type="text" class="form-control" placeholder="Código Interno Fornecedor">
+              </div>
+            </div>       
+          </div>
+          <h4 class="text-center">Foto</h4>
+          <br>
+          <div class="form-row">
+            <div class="col">
+              <div class="file-field">
+                <div class="btn btn-primary btn-sm float-left">
+                  <span>Choose files</span>
+                  <input type="file" multiple>
+                </div>
+              </div>
+            </div>    
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar</button>
+      </div>
     </div>
   </div>
 </div>
