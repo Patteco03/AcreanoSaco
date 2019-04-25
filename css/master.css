@@ -484,8 +484,7 @@
   color: #495057;
 }
 
-<<<<<<< HEAD
-=======
+
 /* ============ Page Chekout =========== */
 .title-carrinho-chegout{
   border-bottom: 1px solid #af0a00;
@@ -521,4 +520,89 @@
 .form-checkout{
   margin: 0px 20px;
 }
->>>>>>> 394c914431e5f75ebfdbeb072157ac7fea31a9eb
+
+/* ============= Page Lojista =============*/
+.title-mercado{
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0px 15px;
+  text-transform: uppercase;
+  margin-top: 8px;
+  font-weight: bold;
+}
+.nameDetp h4{
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 20px 0px;
+  color: #707070;
+}
+.navbarLateral ul {
+  font-size: 15px;
+  -webkit-transition: left .2s ease-in-out;
+  transition: left .2s ease-in-out;
+  margin: 0;
+  padding: 0 0 40px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #efefef;
+  color: #777;
+}
+.navbarLateral{
+  margin-top: 100px;
+  border-right: 1px solid #807e7e70;
+}
+.navbarLateral ul{
+  background-color: #fff;
+}
+.navbarLateral ul li{
+  padding: 8px 0px;
+  font-weight: 400;
+}
+.navbarLateral ul li img{
+  width: 32px;
+}
+.navbarLateral ul li a{
+  color: #707070;
+}
+.segnav{
+  margin-top: 55px;
+  position: fixed;
+  z-index: 1;
+  background-color: #B61200;
+  border-radius: 35px;
+  display: -webkit-box;
+  display: flex;
+  padding: 5px 0 5px 5px;
+  width: 100%;
+}
+.link-logo{
+  background-color: #fff;
+  border-radius: 45%;
+}
+.link-logo img{
+  width: 50px;
+}
+.content-bread{
+  color: #B61200;
+  font-weight: 600;
+}
+.content-bread nav ol{
+  background-color: #fff;
+}
+.dt-produtos-lojista{
+  width: 100%;
+  position: relative;
+  border: 1px solid #B61200;
+  padding: 5px 15px;
+  text-align: center;
+  border-radius: 50px;
+}
+.dt-produtos-lojista a{
+  color: #B61200 !important;
+  padding: 0px 5%;
+
+}
+.content-list-produtos .card{
+  padding: 20px 15px;
+}

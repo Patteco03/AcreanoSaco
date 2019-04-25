@@ -21,9 +21,6 @@ $(document).ready(function(){
     }
   });
 
-<<<<<<< HEAD
-});
-=======
   var content = $('#content');
   $('.list-menu a').on('click', function( e ){
     e.preventDefault();
@@ -48,4 +45,4 @@ $(document).ready(function(){
 
   });
 });
->>>>>>> 394c914431e5f75ebfdbeb072157ac7fea31a9eb
+
