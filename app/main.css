@@ -1,0 +1,122 @@
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+.content-app {
+    margin: 0 auto;
+    background-image: url('./img/backgroud.jpg');
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 380px;
+    min-height: 680px;
+    height: auto;
+    padding: 30px 40px;
+    position: relative;
+}
+
+.form-cep {
+    width: 100%;
+    margin: 0 auto
+}
+
+.form-cep input {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 4px;
+    line-height: 1.3333;
+    color: #fff !important;
+    font-weight: inherit;
+}
+
+.form-cep input:focus {
+    border: none;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, .4);
+    color: #fff;
+}
+
+.form-cep input::placeholder {
+    color: #fff;
+}
+
+.button-in {
+    width: 100%;
+    margin: 0 auto;
+    position: relative
+}
+
+.button-green {
+    background: #00B151;
+    color: #fff;
+}
+
+.button-blue {
+    background: #289DD2;
+    color: #fff;
+}
+
+.button-blue-facebook {
+    background: #3E599B;
+    color: #fff;
+}
+
+.button-in button {
+    width: 100%;
+    margin: 8px 0px;
+}
+
+.button-in button i {
+    position: absolute !important;
+    left: 10px;
+    top: 15px;
+}
+
+.list-market {
+    width: 100%;
+}
+
+.list-market ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 18px;
+}
+
+.list-market ul li {
+    position: relative;
+}
+
+.list-market ul li a {
+    display: block;
+    background-color: rgba(255, 255, 255, .4);
+    height: 60px;
+    color: #fff;
+}
+
+.list-market ul li a .img-market {
+    position: relative;
+    margin: 10px 0px;
+}
+
+.list-market ul li a .img-market img {
+    float: left;
+    padding: 6px;
+}
+
+.list-market ul li a .info-market {
+    padding-top: 6px;
+}
+
+.list-market ul li a .info-market strong {
+    font-size: 15px;
+}
+
+.list-market ul li a .info-market p {
+    font-size: 14px;
+}
