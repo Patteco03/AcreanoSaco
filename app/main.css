@@ -21,6 +21,18 @@
     position: relative;
 }
 
+.content-app-store {
+    margin: 0 auto;
+    background-color: #fff;
+    width: 100%;
+    max-width: 380px;
+    min-height: 680px;
+    height: auto;
+    padding: 30px 40px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
 .form-cep {
     width: 100%;
     margin: 0 auto
@@ -119,4 +131,45 @@
 
 .list-market ul li a .info-market p {
     font-size: 14px;
+}
+
+
+/* ========== store ==========*/
+
+.nav-app {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+.nav-app .person {
+    width: 60px;
+    height: 55px;
+}
+
+.nav-app .person a {
+    font-size: 40px;
+    left: 10px;
+    position: relative;
+    color: #BE0C00;
+}
+
+.nav-app .search {
+    width: 45px;
+    margin: 10px 0px;
+    height: 35px;
+    border-radius: 5px;
+    background: #BE0C00;
+}
+
+.nav-app .search a {
+    font-size: 25px;
+    left: 10px;
+    position: relative;
+    color: #fff;
+}
+
+.list-mercados {
+    margin-top: 8px;
 }
